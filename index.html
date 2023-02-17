@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Food<span>.</span></a>
+        <ul class="nav">
+            <li><a href="#banner">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#expert">Expert</a></li>
+            <li><a href="#review">Review</a></li>
+            <li><a href="#contact">Contact</a></li> 
+        </ul>
+    </header>
+    <section class="banner" id="banner">
+        <div class="content">
+            <h2>Always Choose Good</h2>
+            <p>Food comes first, a slim waist comes second</p>
+            <a href="#" class="om">Our Menu</a>
+        </div>
+    </section >
+    <section class="about" id="about">
+    <div class="row">
+       <div class="col50">
+        <h2 class="titleText">About us</h2><br>
+        <p>Conscious of our lack of connectivity, we wish to humbly take on the great challenge of discovering and, in some cases, rediscovering this beautiful country, replete with unique ingredients, landscapes, cultures, traditions, and history. Above all we wish to connect with the individuals who live here and convey their stories.
+            Our collaborative team works hard to create links between humans, nature and culture, and strives to highlight those elusive elements that few people see in their daily lives.<br><br>
+            The expedition we undertake has no destination or end, rather, it centers on constant movement, observation and respect for the temporality and the seasonality dictated by Earth.</p> 
+       </div>
+       <div class="col150">
+        <div class="imgX">
+            <img src="as.jpg">
+        </div>
+       </div>
+    </div>
+    </section>
+
+    <selection class="menu" id="menu">
+    <div class="title">
+        <h2 class="titleText">Our Menu</h2><br>
+        <p>The best food, at the best place</p><br>
+    </div>
+    <div class="content">
+        <div class="box">
+            <div class="imgX">
+                <img src="gs.jpg"  style="height: 300px; width: 300px;">
+            </div>
+            <div class="text">
+                <h3>Special Salads</h3>
+            </div>
+        </div>
+         <div class="box">
+            <div class="imgX" >
+                <img src="soup.jpg" style="height: 300px; width: 300px;">
+            </div>
+            <div class="text">
+                <h3>Special Soups</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgX" >
+                <img src="pasta.jpg" style="height: 300px; width: 300px;">
+            </div>
+            <div class="text">
+                <h3>Special Pastas</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgX" >
+                <img src="risotto.jpg" style="height: 300px; width: 300px;">
+            </div>
+            <div class="text">
+                <h3>Special Risotto</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgX" >
+                <img src="pizza.jpg" style="height: 300px; width: 300px;">
+            </div>
+            <div class="text">
+                <h3>Special Pizza</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgX" >
+                <img src="chicken.jpg" style="height: 300px; width: 300px;">
+            </div>
+            <div class="text">
+                <h3>Special Chicken Food</h3>
+            </div>
+        </div>
+
+    </div>
+    </selection>
+    <script type="text/javascript">
+        window.addEventListener ('scroll', function(){
+            const header = document.querySelector('header');
+            header.classList.toggle("sticky", window.scrollY>0);
+        })
+    </script>
+</body>
+</html>
