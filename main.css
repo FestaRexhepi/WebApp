@@ -12,6 +12,7 @@ p{
 }
 body{
     min-height: 1000px;
+    font-size: 1rem !important;
 }
 .banner{
     position: relative;
@@ -191,7 +192,7 @@ header.sticky .nav li a{
 .expert .content{
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     flex-direction: row;
     margin-top: 40px; ;
 }
@@ -231,7 +232,7 @@ header.sticky .nav li a{
 .review .content{
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     flex-direction: row;
     margin-top: 40px;
 }
